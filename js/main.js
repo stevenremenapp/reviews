@@ -181,6 +181,11 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     // Add marker to the map
     const marker = DBHelper.mapMarkerForRestaurant(restaurant, self.newMap);
     marker.on("click", onClick);
+    marker.on("keypress", function(e) {
+      if (e.originalEvent.keyCode === 13) {
+        window.location.href = marker.options.url;
+      }
+    });
     function onClick() {
       window.location.href = marker.options.url;
     }
