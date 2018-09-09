@@ -76,7 +76,7 @@ initMap = () => {
         center: [40.722216, -73.987501],
         zoom: 12,
         scrollWheelZoom: false,
-        attributionControl: false
+        attributionControl: false,
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
     mapboxToken: 'pk.eyJ1Ijoic3RldmVucmVtZW5hcHAiLCJhIjoiY2pndm5sODNmMTBlZDJ3bnY2ZTBsdnl3NyJ9.e4iOvDiQjPMT9ebCzL6CKA',
@@ -87,22 +87,8 @@ initMap = () => {
     id: 'mapbox.streets'
   }).addTo(newMap);
   L.control.attribution({position: 'topright'}).addTo(newMap);
-
-
   updateRestaurants();
 }
-/* window.initMap = () => {
-  let loc = {
-    lat: 40.722216,
-    lng: -73.987501
-  };
-  self.map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
-    center: loc,
-    scrollwheel: false
-  });
-  updateRestaurants();
-} */
 
 /**
  * Update page and map for current restaurants.
