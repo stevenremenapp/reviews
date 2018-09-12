@@ -23,8 +23,8 @@ const cacheName = 'v1';
 // ]
 
 const cacheFiles = [
-    '../reviews/',
-    '../reviews/index.html',
+    '../',
+    '../index.html',
     '../reviews/restaurant.html',
     '../reviews/css/styles.css',
     '../reviews/js/dbhelper.js',
