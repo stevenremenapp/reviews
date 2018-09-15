@@ -1,7 +1,7 @@
 # Udacity FEND Course
 ## Project 5: Restaurant Reviews
 
-[See it live here!](https://stevenremenapp.github.io/reviews/)
+<!-- [See it live here!](https://stevenremenapp.github.io/reviews/) -->
 
 ### Project Overview: Stage 1
 
@@ -33,7 +33,7 @@ Service Worker:
 
 Hosting:
 
--   Adjusted pathnames throughout the files so that the project could be correctly hosted on Github pages.
+-   (Changed back temporarily so project can be reviewed). Adjusted pathnames throughout the files so that the project could be correctly hosted on Github pages.
 
 ### Acknowledgements
 
