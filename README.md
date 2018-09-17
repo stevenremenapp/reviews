@@ -1,7 +1,7 @@
 # Udacity FEND Course
 ## Project 5: Restaurant Reviews
 
-<!-- [See it live here!](https://stevenremenapp.github.io/reviews/) -->
+[See it live here!](https://stevenremenapp.github.io/reviews/)
 
 ### Project Overview: Stage 1
 
