@@ -153,7 +153,7 @@ createRestaurantHTML = (restaurant) => {
   image.alt = DBHelper.imageAltTextForRestaurant(restaurant);
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h3');
   name.innerHTML = restaurant.name;
   li.append(name);
 
@@ -195,8 +195,8 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 
 } 
 
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker.register('sw.js').catch(function(error) {
-//     console.log(error);
-//   });
-// }
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(function(error) {
+    console.log(error);
+  });
+}

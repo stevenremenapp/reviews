@@ -15,7 +15,7 @@ You have been provided the code for a restaurant reviews website. The code has a
 
 Access this project by downloading or cloning the master branch and starting a localhost server in the root folder using port 8000 (I used python to do this, but I'm sure there are other ways). Then go to that localhost address in your browser.
 
-### Items added
+### Items Added/Updated
 
 Responsiveness:
 
@@ -27,9 +27,12 @@ Accessibility:
 -   Alt text added to images via JavaScript
 -   Keyboard accessibility added to map markers (links will work when Enter key is selected on map marker)
 -   Added "map marker" to the alt text for the map marker images to make it clearer for screen reader users
--   Added aria-label to links in the header and footer to make them clearer for screen reader users
+-   Added role=application to all maps
 -   Moved the Leaflet map attribute links to the top right so they are never hidden from the user
+-   Corrected breadcrumb to follow accessibility best practices
+-   Added aria-label to links in the header and footer to make them clearer for screen reader users
 -   Added a clearer aria-label ("view details of this restaurant") to the 'View Details' links
+-   Corrected semantic heading levels on all HTML pages to follow h1 -> h3 appropriately
 
 Service Worker:
 
