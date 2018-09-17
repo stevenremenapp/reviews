@@ -26,23 +26,23 @@ const cacheName = 'v1';
 // ]
 
 const cacheFiles = [
-    '/reviews/index.html',
-    '/reviews/restaurant.html',
-    '/reviews/css/styles.css',
-    '/reviews/js/dbhelper.js',
-    '/reviews/js/main.js',
-    '/reviews/js/restaurant_info.js',
-    '/reviews/data/restaurants.json',
-    '/reviews/img/1.jpg',
-    '/reviews/img/2.jpg',
-    '/reviews/img/3.jpg',
-    '/reviews/img/4.jpg',
-    '/reviews/img/5.jpg',
-    '/reviews/img/6.jpg',
-    '/reviews/img/7.jpg',
-    '/reviews/img/8.jpg',
-    '/reviews/img/9.jpg',
-    '/reviews/img/10.jpg'
+    'reviews/index.html',
+    'reviews/restaurant.html',
+    'reviews/css/styles.css',
+    'reviews/js/dbhelper.js',
+    'reviews/js/main.js',
+    'reviews/js/restaurant_info.js',
+    'reviews/data/restaurants.json',
+    'reviews/img/1.jpg',
+    'reviews/img/2.jpg',
+    'reviews/img/3.jpg',
+    'reviews/img/4.jpg',
+    'reviews/img/5.jpg',
+    'reviews/img/6.jpg',
+    'reviews/img/7.jpg',
+    'reviews/img/8.jpg',
+    'reviews/img/9.jpg',
+    'reviews/img/10.jpg'
 ]
 
 self.addEventListener('install', function(event) {
